@@ -1,0 +1,96 @@
+body {
+	background-image: url(https://images6.alphacoders.com/345/345794.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.content {
+	background-color: white;
+	margin: 40px 100px;
+	padding: 20px;
+}
+
+.topnav {
+	overflow: hidden;
+	list-style-type: none;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 8px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.topnav a {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 15px;
+	margin: auto 50px;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.topnav a:hover {
+	background-color: black;
+	color: white;
+}
+
+.title {
+	font-family: 'Bad Script', cursive;
+	font-size: 3em;
+	text-align: center;
+}
+
+img {
+	width: 25%;
+	height: 25%;
+	display: block;
+	margin: auto;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 11px;
+	text-align: center;
+}
+
+.social {
+	margin: 0 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.social button {
+	width: 30px;
+	height: 30px;
+	margin: 5px 20px 5px 0;
+	background-color: white;
+	font-size: 35px;
+	color: #3c2a1e;
+	border: none;
+	cursor: pointer;
+}
+
+.social button a {
+	color: #3c2a1e;
+}
+
+.shop {
+	display: block;
+	background-color: white;
+	margin: 2px auto 60px auto;
+	padding: 15px 60px;
+	border: 1px solid black;
+	border-radius: 25px;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+	outline: none;
+}
+
+.shop:active {
+	transform: translateY(3px);
+	box-shadow: 0px;
+}
